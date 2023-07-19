@@ -1,0 +1,89 @@
+/*STYLES del login y registration*/
+
+
+/*CSS del pokeregistro*/
+body{
+    
+    background-image: url("https://w0.peakpx.com/wallpaper/909/648/HD-wallpaper-pokedexred-lock-phone-pokedex-pokemon-red-screen-tablet.jpg");
+
+}
+
+form{
+    background-image: url("https://fondosanimados.com/wp-content/uploads/2022/04/vlcsnap-2022-03-14-13h58m05s080-450x253-1-450x253.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.container{ 
+    padding: 50px;
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+
+    
+}
+
+.form-groupTITULO{
+    text-align: center;
+   color: red;
+}
+
+.form-group{
+    text-align: center;
+}
+
+
+
+.form-btn{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.loginTitulo{
+    color: red;
+    text-align: center;
+}
+
+
+/*CSS del pokelogin*/
+.form-btn2{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.form-group2{
+    text-align: center;
+}
+
+.form-btn2{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+

@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  /* Establece la fuente de texto para el cuerpo del documento */
+  margin: 0;
+  /* Elimina el margen predeterminado del cuerpo del documento */
+  padding: 20px;
+  /* Establece un relleno interno de 20 píxeles para el cuerpo del documento */
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/148/38/393/pokemon-pokeball-wallpaper-preview.jpg");
+  /* Establece una imagen de fondo para el cuerpo del documento */
+  background-size: cover;
+  /* Ajusta la imagen de fondo para cubrir todo el cuerpo del documento */
+  background-position: center;
+  /*Para centar la imagen que está de fondo en la pagina principal*/
+}
+
+h1 {
+  color: #e0cacb;
+  /* Establece el color del texto para los encabezados h1 */
+  text-align: center;
+  /* Centra el texto dentro de los encabezados h1 */
+
+}
+
+button {
+
+  width: 200px;
+  /* Establece el ancho de los botones en 200 píxeles */
+  height: 40px;
+  /* Establece la altura de los botones en 40 píxeles */
+  background-color: #e73843;
+  /* Establece el color de fondo de los botones */
+  color: #fff;
+  /* Establece el color del texto de los botones */
+  font-size: 16px;
+  /* Establece el tamaño de fuente de los botones */
+  font-weight: bold;
+  /* Para poner en negrilla */
+  text-align: center;
+  /* Centra el texto dentro de los botones */
+  margin: 10px auto;
+  /* Establece un margen de 10 píxeles arriba y abajo, y se ajusta automáticamente horizontalmente */
+  border: none;
+  /* Elimina el borde de los botones */
+  border-radius: 4px;
+  /* Agrega bordes redondeados a los botones */
+  cursor: pointer;
+  /* Cambia el cursor al pasar por encima de los botones */
+  transition: background-color 0.3s ease;
+  /* Agrega una transición suave al cambiar el color de fondo de los botones */
+}
+
+button:hover {
+  background-color: #2f48d2;
+  /* Cambia el color de fondo de los botones al pasar por encima */
+}
+
+#pokemonList {
+  text-align: center;
+  /* Centra el contenido dentro del elemento con el ID "pokemonList" */
+  display: flex;
+  /* Crea un contenedor flexible para los elementos dentro del "pokemonList" */
+  flex-wrap: wrap;
+  /* Permite que los elementos se envuelvan automáticamente dentro del contenedor flexible */
+}
+
+#pokemonData {
+  background-color: #eaecdd;
+  /* Establece el color de fondo del elemento con el ID "pokemonData" */
+  border-radius: 4px;
+  /* Agrega bordes redondeados al elemento "pokemonData" */
+  padding: 20px;
+  /* Establece un relleno interno de 20 píxeles para el elemento "pokemonData" */
+  margin-top: 20px;
+  /* Agrega un margen superior de 20 píxeles al elemento "pokemonData" */
+  text-align: center;
+  /* Centra el contenido dentro del elemento "pokemonData" */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Agrega una sombra al elemento "pokemonData" */
+}
+
+#pokemonData h2 {
+  color: #e73843;
+  /* Establece el color del texto para los encabezados h2 dentro de "pokemonData" */
+}
+
+#pokemonData img {
+  width: 400px;
+  /* Establece el ancho de las imágenes dentro de "pokemonData" en 400 píxeles */
+  height: 400px;
+  /* Establece la altura de las imágenes dentro de "pokemonData" en 400 píxeles */
+  margin-bottom: 2px;
+  /* Agrega un margen inferior de 5 píxeles a las imágenes dentro de "pokemonData" */
+}
+
+#pokemonData h3 {
+  color: #e73843;
+  /* Establece el color del texto para los encabezados h3 dentro de "pokemonData" */
+  margin-bottom: 10px;
+  /* Agrega un margen inferior de 10 píxeles a los encabezados h3 dentro de "pokemonData" */
+}
+
+#pokemonData ul {
+  list-style: none;
+  /* Elimina los estilos de viñetas de las listas no ordenadas dentro de "pokemonData" */
+  padding: 0;
+  /* Elimina el relleno interno de las listas no ordenadas dentro de "pokemonData" */
+  margin: 0;
+  /* Elimina los márgenes de las listas no ordenadas dentro de "pokemonData" */
+}
+
+#pokemonData li {
+  margin-bottom: 5px;
+  /* Agrega un margen inferior de 5 píxeles a los elementos de lista dentro de "pokemonData" */
+}
+
+/* Resto de los estilos CSS */
+
+.back-button {
+  display: block;
+  /* Cambia el elemento de un comportamiento inline a block para permitir ajustes de ancho y margen */
+  width: 100px;
+  /* Establece el ancho del botón de regreso en 100 píxeles */
+  height: 90px;
+  /* Establece la altura del botón de regreso en 90 píxeles */
+  background-color: #e73843;
+  /* Establece el color de fondo del botón de regreso */
+  color: #fff;
+  /* Establece el color del texto del botón de regreso */
+  font-size: 14px;
+  /* Establece el tamaño de fuente del botón de regreso */
+  font-weight: bold;
+  /* Establece el peso de la fuente en negrita para el botón de regreso */
+  text-align: center;
+  /* Centra el texto dentro del botón de regreso */
+  margin: 10px auto;
+  /* Establece un margen de 10 píxeles arriba y abajo, y se ajusta automáticamente horizontalmente */
+  text-decoration: none;
+  /* Elimina la decoración de subrayado del texto del botón de regreso */
+  line-height: 30px;
+  /* Establece la altura de línea del texto dentro del botón de regreso */
+  border-radius: 14px;
+  /* Agrega bordes redondeados al botón de regreso */
+  transition: background-color 0.3s ease;
+  /* Agrega una transición suave al cambiar el color de fondo del botón de regreso */
+}
+
+.back-button:hover {
+  background-color: #2f48d2;
+  /* Cambia el color de fondo del botón de regreso al pasar por encima */
+}
+
+/*Aquí se le da forma a los recuadros donde aparecen los tipos del pokemon*/
+.pokemon-type {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 5px;
+  background-color: #e73843;
+  color: #fff;
+  border-radius: 4px;
+}
